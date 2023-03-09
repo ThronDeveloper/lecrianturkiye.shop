@@ -1,0 +1,48 @@
+/***************************************************MAIN*******************************************************/
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+body {
+    background-color: #16141e;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+/***************************************************NAVBAR*******************************************************/
+.navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding: 2px 2px;
+}
+
+.nav-link {
+    margin: 5px 5px;
+}
+
+.about{
+	margin:0 auto 0 auto;
+	display:table;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    color: #E9ECEF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
